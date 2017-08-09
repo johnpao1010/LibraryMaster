@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.7.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.7.0/distro-source/core/src/gwt-module.dtd">
+
+<module>
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name="com.smartgwtpower.SmartGwtPower"/>
+<!--    <inherits name="com.smartgwt.mobile.SmartGwtMobile"/>-->
+<!--    <inherits name='com.googlecode.gwt.crypto.Crypto'/>-->
+<!--    <inherits name="com.google.gwt.i18n.I18N"/>-->
+    <inherits name="com.smartclient.theme.enterpriseblue.EnterpriseBlue"/>
+
+    <!--<stylesheet src="Upload.css"/>-->
+<!--    <extend-property name="locale" values="es,en,pt" />-->
+    <stylesheet src="cltechde.css"/>
+    <entry-point class="net.cltech.lib.client.MainEntryPoint"/>
+
+    <!-- Do not define servlets here, use web.xml -->
+</module>
